@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kbentes- <kbentes-@student.42.rio>         +#+  +:+       +#+        */
+/*   By: kbentes- <kbentes-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/23 16:49:06 by kbentes-          #+#    #+#             */
-/*   Updated: 2025/12/23 16:49:09 by kbentes-         ###   ########.fr       */
+/*   Updated: 2025/12/23 19:35:27 by kbentes-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,5 @@
 # include <stdlib.h>
 
 char *get_next_line(int fd);
-
-
 
 #endif

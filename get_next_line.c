@@ -71,7 +71,7 @@ static char *ft_read_line(int fd, char *stash)
     // Dentro de um while, verificar se há \n no meu buf
     while (ft_has_new_line(buf) == 0 && bytes_read > 0) // leu algo e não tem new_line
     {
-        line = copy_until_new_line(line, buf); // se line for NULL, line vai apontar pra uma string que é igual a buf (modificar strjoin)
+        line = copy_until_new_line(line, buf); // se line for NULL, line vai apontar pra uma string que é igual a buf
         bytes_read = read(fd, buf, BUFFER_SIZE);
     }
     // Adiciona tudo que foi lido até \n na line
